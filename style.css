@@ -1,0 +1,36 @@
+body { 
+    margin: 5%;
+    padding:10px;
+    text-align: center;
+    
+}
+header {padding:0px; justify-content: center;}
+
+ul {
+display: flex; align-items: center; list-style-type: none;
+padding: 1em; margin:0; position: absolute;
+top: 25%;
+left:30%}
+
+li{padding: 10px;align-items: center;}
+
+#intro {font-family: cursive; font-size: 8pt;
+}
+
+.Welcome {display: grid;
+grid-template-columns: 33% 33% 33%; grid-template-rows:  33% 33% 33%; gap: 2pt;}
+
+.homepage{align-items: center; color: white;
+    background-image: url(https://bakingamoment.com/wp-content/uploads/2017/05/IMG_3272-glazed-donuts-ed-text.jpg); opacity: 0.5;
+}
+
+.Weekly {font-size: 10pt; line-height:0px}
+
+.Hours{font-size: 10pt; line-height: 0px; text-align: right;padding: 10px;}
+
+.Location{line-height: 0px;}
+
+.Merch {text-align: left;line-height: 10px;margin: 20px;}
+
+
+
