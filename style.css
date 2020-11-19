@@ -6,9 +6,11 @@ body {
 }
 header {padding:0px; justify-content: center; ;}
 
+#Company {padding:5px;}
+
 ul {
 display: flex; align-items: center; list-style-type: none;
-padding: 1em; margin:0; position: absolute;
+padding: 1em; margin:0; position: Relative;
 top: 25%;
 left:30%}
 
@@ -18,22 +20,92 @@ li{padding: 10px;align-items: center;}
 }
 
 .Welcome {display: grid;
-grid-template-columns: 33% 33% 33%; grid-template-rows:  33% 33% 33%; gap: 2pt;}
+grid-template-columns: 33% 33% 33%; grid-template-rows:  33% 33% 33%; gap: 10pt;}
 
-.homepage{align-items: center; color: white;
-    background-image: url(https://bakingamoment.com/wp-content/uploads/2017/05/IMG_3272-glazed-donuts-ed-text.jpg); opacity: 0.5;
+ .homepage{ align-items: center; color: white; padding: 50px; margin: 100px; color: blue;
+    background-image: url(https://bakingamoment.com/wp-content/uploads/2017/05/IMG_3272-glazed-donuts-ed-text.jpg); opacity: 0.8; background-size: 297px 222px; ;
 }
-
 .Food { }
 
 
 .Weekly {font-size: 10pt; line-height:0px}
 
-.Hours{font-size: 10pt; line-height: 0px; text-align: right;padding: 10px;}
+.Hours{font-size: 10pt; line-height: 0px; text-align: center; padding: 10px;}
 
 .Location{line-height: 0px;}
 
 .Merch {text-align: left;line-height: 10px;margin: 20px;}
 
+.locations {
+    display:grid; grid-template-columns: 200px 300px 200px; grid-template-rows: 200px 200px 200px; flex: right;}
 
 
+#Gotham {grid-row-start:2; grid-row-end:3; grid-column-start:1; grid-column-end:2}
+
+#Metropolis {grid-row-start:2; grid-row-end:3; grid-column-start:2; grid-column-end:3}
+
+#Central {grid-row-start:2; grid-row-end:3; grid-column-start:3; grid-column-end:4}
+
+#GothamMap {grid-row-start:3; grid-row-end:4; grid-column-start:1; grid-column-end:2;}
+
+img {height: 200px; width: 200px;}
+
+.team {text-align: left; line-height:1em; padding: 5px 20px 5px 50px; 
+
+ }
+
+#teams {text-align: center; line-height: 1px;}
+
+#Batman {line-height:1em; padding: 5px 20px 5px 50px; }
+
+#Aquaman {line-height:1em; padding: 5px 20px 5px 50px}
+
+#Superman {line-height:1em; padding: 5px 20px 5px 50px}
+
+#Flash {line-height:1em; padding: 5px 20px 5px 50px }
+
+#Wonder {line-height:1em; padding: 5px 20px 5px 50px}
+
+#Career {text-justify: bottom; text-align: center;}
+
+
+ .dropbtn {
+    background-color: pink;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: salmon;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+  .dropdown:hover .dropbtn {background-color: pink;} 
