@@ -112,9 +112,7 @@ img {height: 200px; width: 200px;}
   .hov-cont {
     padding:100px
     }
-    .txt-hov {
-    position:relative;alt="" width="660" height="1100" class="img-hov"></span>
-    }
+    
     .img-hov {
     position:absolute;
     top:-110px;
@@ -129,4 +127,4 @@ img {height: 200px; width: 200px;}
     display:initial;
     }
 
-    <span class="txt-hov"><img src="glazed.jpg" alt="" width="660" height="1100" class="img-hov"></span>Glazed
+    /*<span class="txt-hov"><img src="glazed.jpg" alt="" width="660" height="1100" class="img-hov"></span*/
