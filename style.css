@@ -115,16 +115,16 @@ img {height: 200px; width: 200px;}
     
     .img-hov {
     position:absolute;
-    top:-110px;
+    top:110px;
     left:300px;
     display:none;
     max-width: 330px;
     }
     .txt-hov:hover {
-    color:#fe5000;
+    color:#fe5000; 
     }
     .txt-hov:hover .img-hov {
-    display:initial;
+    display:initial; 
     }
 
     /*<span class="txt-hov"><img src="glazed.jpg" alt="" width="660" height="1100" class="img-hov"></span*/
